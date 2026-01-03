@@ -118,9 +118,6 @@ a replacement for source-based information.
 ## 🧩 System Overview
 
 ```text
-## 🧩 System Overview
-
-```text
 ┌──────────────────────────┐
 │       User Search        │
 │     "Is coffee safe?"    │
