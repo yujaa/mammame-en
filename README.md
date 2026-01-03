@@ -49,6 +49,10 @@ informed decisions based on context, credibility, and AI-assisted explanations.
 - **Responsive Web UI**  
   Built with Compose Multiplatform (Web) to ensure consistent behavior across screen sizes.
 
+  **Planned Mobile App Support**  
+  The project is designed with future expansion in mind and is planned to be
+  extended into a mobile application.
+
 ---
 
 ## ⚙️ How It Works
@@ -217,8 +221,9 @@ This project is under active development and experimentation.
 - Data sources may expand or change
 - UI and ranking logic may evolve
 - No guarantees are made regarding completeness or correctness
+- A mobile application version is planned as a future extension of this project
 
-A Korean-language version of Mammame is actively maintained and shared separately (https://mammame.app).
+A Korean-language version of Mammame (web) is actively maintained and shared separately (https://mammame.app).
 That version operates **without AI-assisted summaries**.
 
 
