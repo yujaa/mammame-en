@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>맘마미 매거진 - 건강한 식습관의 시작</title>
+    <style>
+        body { font-family: 'Pretendard', sans-serif; line-height: 1.6; color: #333; margin: 0; padding: 0; background: #f9f9f9; }
+        .container { max-width: 800px; margin: 0 auto; padding: 40px 20px; }
+        header { text-align: center; margin-bottom: 50px; }
+        h1 { font-size: 2.5rem; color: #2c3e50; margin-bottom: 10px; }
+        .subtitle { color: #7f8c8d; font-size: 1.1rem; }
+
+        .post-list { display: grid; gap: 30px; }
+        .post-card { background: white; padding: 25px; border-radius: 12px; box-shadow: 0 2px 10px rgba(0,0,0,0.05); transition: transform 0.2s; }
+        .post-card:hover { transform: translateY(-5px); }
+        .post-card h2 { margin-top: 0; font-size: 1.5rem; color: #e67e22; } /* 메인 컬러에 맞춰 수정하세요 */
+        .post-card p { color: #666; margin-bottom: 15px; }
+        .post-card .meta { font-size: 0.9rem; color: #bdc3c7; }
+        .post-card a { text-decoration: none; color: inherit; display: block; padding: 25px; outline: none;}
+        .read-more { display: inline-block; color: #e67e22; text-decoration: none; font-weight: bold; margin-top: 10px; }
+
+        footer { text-align: center; margin-top: 50px; padding: 20px; font-size: 0.9rem; color: #999; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <div style="max-width: 1000px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center;">
+            <div style="text-align: left;">
+                <h1>MAMMAME Magazine</h1>
+                <p>엄마와 아기를 위한 가장 안전하고 정확한 음식 가이드</p>
+            </div>
+            <a href="index.html" style="text-decoration: none;">
+                <button style="padding: 10px 20px; border-radius: 25px; border: none; background: #e67e22; color: white; font-weight: bold; cursor: pointer; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+                    🔍 음식 검색하러 가기
+                </button>
+            </a>
+        </div>
+    </header>
+
+    <main class="post-list">
+        <article class="post-card">
+            <a href="/articles/post-01.html">
+                <span class="tag tag-safe">치즈</span>
+                <h2>임산부가 먹어도 되는 치즈 vs 피해야 할 치즈</h2>
+                <p>브리, 까망베르, 체다... 종류별 치즈 섭취 가이드</p>
+            </a>
+        </article>
+        <article class="post-card">
+            <a href="/articles/post-02.html">
+                <span class="tag tag-caution">카페인</span>
+                <h2>카페인 섭취 가이드: 하루 몇 잔까지 안전할까?</h2>
+                <p>커피와 초콜릿에 숨겨진 카페인 함량 분석</p>
+            </a>
+        </article>
+        <article class="post-card">
+            <a href="/articles/post-03.html">
+                <span class="tag tag-caution">날음식</span>
+                <h2>날달걀 섭취 가이드: 티라미수는 괜찮을까?</h2>
+                <p>살모넬라균 걱정 없는 안전한 달걀 섭취법</p>
+            </a>
+        </article>
+        <article class="post-card">
+            <a href="/articles/post-04.html">
+                <span class="tag tag-info">가공육</span>
+                <h2>페퍼로니와 델리미트: 피자는 괜찮을까?</h2>
+                <p>리스테리아균 걱정 없이 가공육 즐기는 법</p>
+            </a>
+        </article>
+        <article class="post-card">
+            <a href="/articles/post-05.html">
+                <span class="tag tag-safe">슈퍼푸드</span>
+                <h2>태아를 위한 슈퍼푸드 TOP 5 식단 가이드</h2>
+                <p>시금치, 오트밀, 견과류 등 영양 만점 식단</p>
+            </a>
+        </article>
+        <article class="post-card">
+            <a href="/articles/post-06.html">
+                <span class="tag tag-info">수산물</span>
+                <h2>수산물 가이드: 회, 초밥, 참치캔의 진실</h2>
+                <p>수은 함량 걱정 없는 똑똑한 생선 섭취</p>
+            </a>
+        </article>
+        <article class="post-card">
+            <a href="/articles/post-07.html">
+                <span class="tag tag-info">음료</span>
+                <h2>무알코올 맥주 가이드: 0.0과 0.00의 차이</h2>
+                <p>진짜 알코올 0%를 찾는 법</p>
+            </a>
+        </article>
+        <article class="post-card">
+            <a href="/articles/post-08.html">
+                <span class="tag tag-caution">과일</span>
+                <h2>주의해야 할 과일 TOP 3: 당분과 속설 정리</h2>
+                <p>파인애플, 감, 당도 높은 과일 섭취법</p>
+            </a>
+        </article>
+        <article class="post-card">
+            <a href="/articles/post-09.html">
+                <span class="tag tag-info">허브차</span>
+                <h2>임산부 허브차: 마셔도 되는 차 vs 피해야 할 차</h2>
+                <p>루이보스부터 히비스커스까지 완벽 정리</p>
+            </a>
+        </article>
+        <article class="post-card">
+            <a href="/articles/post-10.html">
+                <span class="tag tag-info">회</span>
+                <h2>회 섭취, 서구권 vs 한국 가이드라인 시각 차이</h2>
+                <p>왜 국가마다 말이 다를까? 심층 분석</p>
+            </a>
+        </article>
+        <article class="post-card">
+            <a href="/articles/post-11.html">
+                <span class="tag tag-caution">자극적음식</span>
+                <h2>매운 음식과 인스턴트, 아기에게 해로울까?</h2>
+                <p>태열 속설과 건강하게 즐기는 타협안</p>
+            </a>
+        </article>
+        <article class="post-card">
+            <a href="/articles/post-12.html">
+                <span class="tag tag-info">보양식</span>
+                <h2>보양식의 함정: 흑염소, 장어 주의사항</h2>
+                <p>임산부에게 진짜 필요한 보양 음식</p>
+            </a>
+        </article>
+        <article class="post-card">
+            <a href="/articles/post-13.html">
+                <span class="tag tag-info">붓기</span>
+                <h2>붓기 관리: 호박즙과 팥차의 효과와 주의점</h2>
+                <p>이뇨 작용과 양수량의 관계</p>
+            </a>
+        </article>
+        <article class="post-card">
+            <a href="/articles/post-14.html">
+                <span class="tag tag-safe">장건강</span>
+                <h2>변비 탈출! 장 건강을 돕는 최고의 음식</h2>
+                <p>푸룬, 키위, 오트밀 활용 가이드</p>
+            </a>
+        </article>
+        <article class="post-card">
+            <a href="/articles/post-15.html">
+                <span class="tag tag-info">외식</span>
+                <h2>외식 메뉴 고민 끝! 안심 메뉴 추천 리스트</h2>
+                <p>한식, 일식, 중식 식당에서의 선택법</p>
+            </a>
+        </article>
+
+    </main>
+
+    <footer>
+        &copy; 2024 MAMMAME. All rights reserved.
+    </footer>
+</div>
+
+</body>
+</html>

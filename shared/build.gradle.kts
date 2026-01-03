@@ -9,6 +9,13 @@ kotlin {
 
     jvm("desktop")
 
+    // ✅ 추가: JS 타겟
+    js(IR) {
+        browser()
+        binaries.executable()
+    }
+
+
     listOf(
         iosX64(),
         iosArm64(),
@@ -37,6 +44,16 @@ kotlin {
                 api("androidx.core:core-ktx:1.10.1")
             }
         }
+
+        val jsMain by getting { // ✅ 추가
+            dependencies {
+                implementation(compose.runtime)
+                implementation(compose.foundation)
+                implementation(compose.material)
+            }
+        }
+
+
         val iosX64Main by getting
         val iosArm64Main by getting
         val iosSimulatorArm64Main by getting
