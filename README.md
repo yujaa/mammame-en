@@ -49,7 +49,7 @@ informed decisions based on context, credibility, and AI-assisted explanations.
 - **Responsive Web UI**  
   Built with Compose Multiplatform (Web) to ensure consistent behavior across screen sizes.
 
-  **Planned Mobile App Support**  
+- **Planned Mobile App Support**  
   The project is designed with future expansion in mind and is planned to be
   extended into a mobile application.
 
